@@ -50,8 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="C03_SimpleFactoryTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\7DayToLearnDesignPattern\7DayToLearnDesignPattern.csproj">
+      <Project>{A13FCC9A-73AB-41C3-A445-3475DBD73660}</Project>
+      <Name>7DayToLearnDesignPattern</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

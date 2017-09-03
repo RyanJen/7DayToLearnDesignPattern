@@ -1,4 +1,6 @@
-﻿using System;
+﻿using _7DayToLearnDesignPattern.C03_SimpleFactory;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,8 @@ namespace _7DayToLearnDesignPattern
     {
         static void Main(string[] args)
         {
+            C03_SimpleFactory.Test.TestFunction();
+            Console.ReadLine();
         }
     }
 }
