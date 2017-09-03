@@ -12,7 +12,7 @@ namespace _7DayToLearnDesignPattern
     {
         static void Main(string[] args)
         {
-            C03_SimpleFactory.Test.TestFunction();
+            C04_Factory.Test.TestFunction();
             Console.ReadLine();
         }
     }
